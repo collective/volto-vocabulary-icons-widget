@@ -10,3 +10,23 @@ msgstr ""
 "Content-Type: \n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+
+ #: widgets/VocabularyIconsWidget/VocabularyIconsWidget
+msgid "vocabulary_icons_widget_add_term"
+msgstr ""
+
+#: widgets/VocabularyIconsWidget/VocabularyIconsWidget
+msgid "vocabulary_icons_widget_icon"
+msgstr ""
+
+#: widgets/VocabularyIconsWidget/VocabularyIconsWidget
+msgid "vocabulary_icons_widget_infos"
+msgstr ""
+
+#: widgets/VocabularyIconsWidget/VocabularyIconsWidget
+msgid "vocabulary_icons_widget_label"
+msgstr ""
+
+#: widgets/VocabularyIconsWidget/VocabularyIconsWidget
+msgid "vocabulary_icons_widget_remove_term"
+msgstr ""

@@ -1,0 +1,40 @@
+.vocabulary-icons-widget {
+    margin-bottom: 1rem;
+}
+
+.vocabulary-icons-widget .infos {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.vocabulary-icons-widget .ui.grid .row.bottom-buttons .column {
+    padding: 1em 0;
+}
+
+.vocabulary-icons-widget .ui.grid .row .column .ui.input {
+    width: 100% !important;
+}
+
+.vocabulary-icons-widget .ui.grid .row .column .ui.input input {
+    height: 35px;
+    font-size: 0.85em;
+}
+
+.vocabulary-icons-widget .ui.grid .row .column.term-actions {
+    padding: 0;
+    text-align: center;
+}
+
+.vocabulary-icons-widget
+    .ui.grid
+    .row
+    .column.term-actions
+    .ui.button.delete-term {
+    padding: 0.5em;
+    margin-right: 0;
+}
+
+.vocabulary-icons-widget .ui.grid .row .column.icon-column > *,
+.vocabulary-icons-widget .ui.grid .row .column.term-actions > * {
+    margin-top: 0.5rem;
+}
