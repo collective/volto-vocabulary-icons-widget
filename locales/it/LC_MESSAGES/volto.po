@@ -10,3 +10,23 @@ msgstr ""
 "Content-Type: \n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+
+ #: widgets/VocabularyIconsWidget/VocabularyIconsWidget
+msgid "vocabulary_icons_widget_add_term"
+msgstr "Aggiungi elemento"
+
+#: widgets/VocabularyIconsWidget/VocabularyIconsWidget
+msgid "vocabulary_icons_widget_icon"
+msgstr "Icona"
+
+#: widgets/VocabularyIconsWidget/VocabularyIconsWidget
+msgid "vocabulary_icons_widget_infos"
+msgstr "Seleziona i nomi delle icone da {fa}."
+
+#: widgets/VocabularyIconsWidget/VocabularyIconsWidget
+msgid "vocabulary_icons_widget_label"
+msgstr "Etichetta"
+
+#: widgets/VocabularyIconsWidget/VocabularyIconsWidget
+msgid "vocabulary_icons_widget_remove_term"
+msgstr "Rimuovi elemento"
