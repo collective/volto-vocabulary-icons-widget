@@ -1,6 +1,6 @@
 {
   "name": "volto-vocabulary-icons-widget",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Volto addon for vocabularies with icons",
   "main": "src/index.js",
   "repository": "https://github.com/collective/volto-vocabulary-icons-widget.git",
@@ -15,7 +15,7 @@
     "react"
   ],
   "scripts": {
-    "i18n": "NODE_ENV=production node src/i18n.js"
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n -a"
   },
   "husky": {
     "hooks": {
