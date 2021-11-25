@@ -13,7 +13,3 @@ yarn add volto-vocabulary-icons-widget
 This addon will add in your project the Widget to edit vocabularies where term key is associated with a Fontawesome icon.
 
 <img alt="Vocabulary icons widget" src="./docs/vocabulary-icons-widget.png" width="500" />
-
-## Usage
-
-`Document your addon here`
