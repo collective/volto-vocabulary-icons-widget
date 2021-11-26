@@ -1,35 +1,35 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useState, useEffect } from 'react';
-import { defineMessages, useIntl } from 'react-intl';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { FormFieldWrapper, TextWidget } from '@plone/volto/components';
-import { Grid, Button, Placeholder } from 'semantic-ui-react';
-import './vocabulary_icons_widget.css';
+import React, { useState, useEffect } from "react";
+import { defineMessages, useIntl } from "react-intl";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FormFieldWrapper, TextWidget } from "@plone/volto/components";
+import { Grid, Button, Placeholder } from "semantic-ui-react";
+import "./vocabulary_icons_widget.css";
 
 const messages = defineMessages({
   addTerm: {
-    id: 'vocabulary_icons_widget_add_term',
-    defaultMessage: 'Add term',
+    id: "vocabulary_icons_widget_add_term",
+    defaultMessage: "Add term",
   },
   icon: {
-    id: 'vocabulary_icons_widget_icon',
-    defaultMessage: 'Icon',
+    id: "vocabulary_icons_widget_icon",
+    defaultMessage: "Icon",
   },
   label: {
-    id: 'vocabulary_icons_widget_label',
-    defaultMessage: 'Label',
+    id: "vocabulary_icons_widget_label",
+    defaultMessage: "Label",
   },
   deleteButton: {
-    id: 'vocabulary_icons_widget_remove_term',
-    defaultMessage: 'Remove term',
+    id: "vocabulary_icons_widget_remove_term",
+    defaultMessage: "Remove term",
   },
   infos: {
-    id: 'vocabulary_icons_widget_infos',
-    defaultMessage: 'Select icons names from {fa}.',
+    id: "vocabulary_icons_widget_infos",
+    defaultMessage: "Select icons names from {fa}.",
   },
 });
 
-const defaultItem = { token: '', title: '' };
+const defaultItem = { token: "", title: "" };
 
 const VocabularyIconsWidget = (props) => {
   const intl = useIntl();
@@ -70,7 +70,7 @@ const VocabularyIconsWidget = (props) => {
           {intl.formatMessage(messages.infos, {
             fa: (
               <a
-                href="https://fontawesome.com"
+                href="https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -85,7 +85,7 @@ const VocabularyIconsWidget = (props) => {
               <Grid.Column width={1} textAlign="center" className="icon-column">
                 {term.token ? (
                   <FontAwesomeIcon
-                    icon={['fas', term.token]}
+                    icon={["fas", term.token]}
                     className="icon"
                   />
                 ) : (
