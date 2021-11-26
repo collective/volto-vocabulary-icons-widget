@@ -1,6 +1,6 @@
 {
   "name": "volto-vocabulary-icons-widget",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Volto addon for vocabularies with icons",
   "main": "src/index.js",
   "repository": "https://github.com/collective/volto-vocabulary-icons-widget.git",

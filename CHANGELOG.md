@@ -1,3 +1,16 @@
+### [1.1.1](https://github.com/collective/volto-vocabulary-icons-widget/compare/v1.1.0...v1.1.1) (2021-11-26)
+
+
+### Bug Fixes
+
+* fixed fontawesome link ([68e294e](https://github.com/collective/volto-vocabulary-icons-widget/commit/68e294e757e54f9ee2096e80d83622309eb321ad))
+
+
+### Maintenance
+
+* updated readme ([7b9e1af](https://github.com/collective/volto-vocabulary-icons-widget/commit/7b9e1afaa5b70bd9890b294281b99cec5ff5f016))
+* updated readme ([400d570](https://github.com/collective/volto-vocabulary-icons-widget/commit/400d5705ffa88352bfeca3deac5aa664ddf6ecf5))
+
 ## 1.1.0 (2021-11-25)
 
 
